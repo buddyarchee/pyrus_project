@@ -9,5 +9,5 @@ def get_text_from_docx(path):
         'statusCode': 200,
         'body': '\n'.join(full_text),
     }
-'''asdsd'''
+
 print(get_text_from_docx(r'C:\folder\esotericism.docx'))
